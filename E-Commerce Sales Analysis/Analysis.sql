@@ -1,0 +1,15 @@
+SELECT * FROM superstore_analysis.store;
+select max(`index`) from store;
+select count(`index`) as totalrow from store;
+select * from store order by `index` desc limit 5;
+alter table store rename column `index` to id;
+select * from store limit 5;
+select sum(amount) as total_sales from store;
+select count(distinct(`order ID`)) as total_orders from store;
+select sum(Qty) as Quantity_Sold from store;
+select gender,sum(amount) as total_sales from store group by gender order by total_sales desc;
+select `age group`,sum(amount) as total_sales from store group by `age group` order by total_sales desc;
+select category,sum(amount) as total_sales from store group by category order by total_sales desc;
+select channel,sum(amount) as total_sales from store group by channel order by total_sales desc;
+select `ship-state`,sum(amount) as total_sales from store group by `ship-state` order by total_sales desc limit 5;
+select month,sum(amount) as total_sales from store group by month order by total_sales desc;
