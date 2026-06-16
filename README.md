@@ -1,16 +1,16 @@
-# 📊 Ecommerce Performance Analysis
+# Ecommerce Performance Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes e-commerce sales data using SQL to uncover key business insights such as revenue trends, profit distribution, category performance, and customer behavior patterns. The goal is to transform raw transactional data into meaningful insights for decision-making.
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - SQL
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset contains e-commerce transaction details including:
 - Order details
 - Sales
@@ -20,17 +20,17 @@ The dataset contains e-commerce transaction details including:
 
 ---
 
-## 📊 Key Business Insights
-- 💰 Total Sales and Revenue Analysis
-- 📈 Profitability Analysis
-- 🛍 Category-wise Performance
-- 🌐 Sales Channel Performance
-- 📅 Monthly Sales Trends
-- 👩‍🦰 Gender-wise Customer Analysis
+## Key Business Insights
+- Total Sales and Revenue Analysis
+- Profitability Analysis
+- Category-wise Performance
+- Sales Channel Performance
+- Monthly Sales Trends
+- Gender-wise Customer Analysis
 
 ---
 
-## 🎯 Key Outcome
+## Key Outcome
 - Identified top-performing product categories
 - Analyzed profit vs discount behavior
 - Tracked monthly sales trends for business forecasting
@@ -38,7 +38,7 @@ The dataset contains e-commerce transaction details including:
 
 ---
 
-## 📌 Skills Demonstrated
+## Skills Demonstrated
 - SQL querying and data aggregation
 - Business problem-solving
 - Data interpretation
